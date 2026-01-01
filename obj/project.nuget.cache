@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xtGhOmho7ik=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kruil\\.nuget\\packages\\dalamudpackager\\2.1.13\\dalamudpackager.2.1.13.nupkg.sha512",
+    "C:\\Users\\kruil\\.nuget\\packages\\imgui.net\\1.91.6.1\\imgui.net.1.91.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}

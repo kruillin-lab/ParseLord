@@ -1,0 +1,22 @@
+{
+  "Author": "Manus",
+  "Name": "Parse Lord",
+  "InternalName": "AutoRotationPlugin",
+  "AssemblyVersion": "1.0.0.91",
+  "Description": "RSR-style rotation engine with Wrath-style UI. Features per-ability heal priority stacks, burst window alignment, job gauge integration, and comprehensive granular options.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "combat",
+    "rotation",
+    "automation",
+    "utility"
+  ],
+  "DalamudApiLevel": 14,
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": true,
+  "LoadPriority": 0,
+  "IconUrl": "https://raw.githubusercontent.com/goatcorp/DalamudPlugins/master/Icon.png",
+  "Punchline": "RSR rotation logic meets Wrath granularity.",
+  "AcceptsFeedback": true
+}
