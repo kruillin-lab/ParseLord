@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj": {
-      "version": "1.0.0.91",
+      "version": "1.0.0.94",
       "restore": {
         "projectUniqueName": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj",
         "projectName": "AutoRotationPlugin",
@@ -51,8 +51,6 @@
               "version": "[2.1.13, )"
             },
             "ImGui.NET": {
-              "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
               "target": "Package",
               "version": "[1.91.6.1, )"
             }

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "AutoRotationPlugin/1.0.0.91": {
+      "AutoRotationPlugin/1.0.0.94": {
         "dependencies": {
           "ImGui.NET": "1.91.6.1"
         },
@@ -15,6 +15,12 @@
         }
       },
       "ImGui.NET/1.91.6.1": {
+        "runtime": {
+          "lib/net8.0/ImGui.NET.dll": {
+            "assemblyVersion": "1.91.6.1",
+            "fileVersion": "1.91.6.1"
+          }
+        },
         "runtimeTargets": {
           "runtimes/linux-x64/native/libcimgui.so": {
             "rid": "linux-x64",
@@ -46,7 +52,7 @@
     }
   },
   "libraries": {
-    "AutoRotationPlugin/1.0.0.91": {
+    "AutoRotationPlugin/1.0.0.94": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

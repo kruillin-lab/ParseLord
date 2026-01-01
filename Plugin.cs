@@ -6,6 +6,7 @@ using Dalamud.Plugin.Services;
 using AutoRotationPlugin.Managers;
 using System;
 using Dalamud.Game.ClientState.Objects.SubKinds;
+using Dalamud.Game.ClientState.Objects.Types;
 
 namespace AutoRotationPlugin
 {
@@ -13,7 +14,7 @@ namespace AutoRotationPlugin
     {
         public string Name => "Parse Lord";
         private const string CommandName = "/parselord";
-        private const string CommandAlias = "/pl"; // New Alias
+        private const string CommandAlias = "/pl";
 
         // Dalamud Services
         [PluginService] public static IDalamudPluginInterface PluginInterface { get; private set; } = null!;
@@ -73,7 +74,6 @@ namespace AutoRotationPlugin
             PluginInterface.UiBuilder.Draw -= DrawUI;
             PluginInterface.UiBuilder.OpenConfigUi -= DrawConfigUI;
 
-            // Remove both commands
             CommandManager.RemoveHandler(CommandName);
             CommandManager.RemoveHandler(CommandAlias);
 
@@ -85,7 +85,6 @@ namespace AutoRotationPlugin
 
         private void OnCommand(string command, string args)
         {
-            // Handle arguments for both commands
             if (string.IsNullOrEmpty(args))
             {
                 ConfigWindow.IsOpen = !ConfigWindow.IsOpen;
@@ -102,6 +101,7 @@ namespace AutoRotationPlugin
             }
             else if (subCommand == "diag")
             {
+                // FIX: Use ObjectTable[0] instead of ClientState.LocalPlayer
                 var player = ObjectTable.Length > 0 ? ObjectTable[0] as IPlayerCharacter : null;
 
                 if (player == null)
@@ -124,8 +124,28 @@ namespace AutoRotationPlugin
         private void OnFrameworkUpdate(IFramework framework)
         {
             if (!Configuration.Enabled) return;
-            if (ObjectTable.Length == 0 || ObjectTable[0] == null) return;
             if (ClientState.IsPvP) return;
+
+            // FIX: Use ObjectTable[0] to get the local player safely
+            if (ObjectTable.Length == 0) return;
+            var player = ObjectTable[0];
+
+            if (player == null) return;
+
+            // 2. Get Target
+            var currentTarget = TargetManager.Target;
+
+            // 3. SAFETY CHECK: Gaze Mechanic Protection
+            // If we have a hard target, but we are looking away from it, DO NOT ATTACK.
+            if (currentTarget != null)
+            {
+                if (!Safety.IsFacingTarget(player, currentTarget))
+                {
+                    // Logic: You are looking away, likely for a mechanic. 
+                    // We pause execution so the game doesn't snap you back.
+                    return;
+                }
+            }
 
             try
             {

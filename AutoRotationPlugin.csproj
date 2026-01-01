@@ -3,7 +3,7 @@
 	<PropertyGroup>
 		<TargetFramework>net10.0-windows</TargetFramework>
 		<DalamudApiLevel>14</DalamudApiLevel>
-		<Version>1.0.0.91</Version>
+		<Version>1.0.0.94</Version>
 		<LangVersion>latest</LangVersion>
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 		<Nullable>enable</Nullable>
@@ -22,10 +22,7 @@
 	<ItemGroup>
 		<PackageReference Include="DalamudPackager" Version="2.1.13" />
 
-		<PackageReference Include="ImGui.NET" Version="1.91.6.1">
-			<PrivateAssets>All</PrivateAssets>
-			<ExcludeAssets>runtime</ExcludeAssets>
-		</PackageReference>
+		<PackageReference Include="ImGui.NET" Version="1.91.6.1" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -43,7 +40,6 @@
 			<HintPath>$(DalamudLibPath)FFXIVClientStructs.dll</HintPath>
 			<Private>false</Private>
 		</Reference>
-
 		<Reference Include="ImGuiScene">
 			<HintPath>$(DalamudLibPath)ImGuiScene.dll</HintPath>
 			<Private>false</Private>
@@ -69,6 +65,6 @@
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
-		<Exec Command="mkdir &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot; 2&gt;nul&#xA;copy /Y &quot;$(TargetPath)&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;&#xA;if exist &quot;$(TargetDir)$(TargetName).pdb&quot; copy /Y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;&#xA;if exist &quot;$(TargetDir)$(TargetName).json&quot; copy /Y &quot;$(TargetDir)$(TargetName).json&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;" />
+		<Exec Command="mkdir &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot; 2&gt;nul&#xA;copy /Y &quot;$(TargetPath)&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;&#xA;copy /Y &quot;$(TargetDir)ImGui.NET.dll&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;&#xA;if exist &quot;$(TargetDir)$(TargetName).pdb&quot; copy /Y &quot;$(TargetDir)$(TargetName).pdb&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;&#xA;if exist &quot;$(TargetDir)$(TargetName).json&quot; copy /Y &quot;$(TargetDir)$(TargetName).json&quot; &quot;C:\Users\kruil\AppData\Roaming\XIVLauncher\devPlugins\ParseLord&quot;" />
 	</Target>
 </Project>

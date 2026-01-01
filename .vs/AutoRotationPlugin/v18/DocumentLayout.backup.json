@@ -3,67 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\safety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:safety.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\autorotationplugin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:autorotationplugin.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\kruil\\AppData\\Local\\Temp\\VSProjectConfigWarningLog_cc255283-ea97-446e-9b6f-41f48c393a45.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\uihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:uihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\configwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:configwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\managers\\targetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:managers\\targetingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:actionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\actioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:actioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\managers\\rotationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:managers\\rotationmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\rotations\\paladinrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:rotations\\paladinrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\rotations\\whitemagerotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:rotations\\whitemagerotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\rotations\\dragoonrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:rotations\\dragoonrotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\helpers\\jobgaugereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:helpers\\jobgaugereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\irotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:irotation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|c:\\users\\kruil\\documents\\projects\\parselord\\uihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}|AutoRotationPlugin.csproj|solutionrelative:uihelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -73,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Safety.cs",
+              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Safety.cs",
+              "RelativeDocumentMoniker": "Safety.cs",
+              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Safety.cs",
+              "RelativeToolTip": "Safety.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T17:10:33.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Plugin.cs",
+              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Plugin.cs",
+              "RelativeDocumentMoniker": "Plugin.cs",
+              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Plugin.cs",
+              "RelativeToolTip": "Plugin.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAkwKUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-01T17:09:52.55Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
@@ -84,117 +67,25 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AutoRotationPlugin.csproj",
               "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj",
               "RelativeDocumentMoniker": "AutoRotationPlugin.csproj",
               "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj",
               "RelativeToolTip": "AutoRotationPlugin.csproj",
-              "ViewState": "AgIAADQAAAAAAAAAAAD4v0kAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAD4v0UAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-01T15:52:42.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WhiteMageRotation.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Rotations\\WhiteMageRotation.cs",
-              "RelativeDocumentMoniker": "Rotations\\WhiteMageRotation.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Rotations\\WhiteMageRotation.cs",
-              "RelativeToolTip": "Rotations\\WhiteMageRotation.cs",
-              "ViewState": "AgIAAK8AAAAAAAAAAAAkwNgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaladinRotation.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Rotations\\PaladinRotation.cs",
-              "RelativeDocumentMoniker": "Rotations\\PaladinRotation.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Rotations\\PaladinRotation.cs",
-              "RelativeToolTip": "Rotations\\PaladinRotation.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAkwLAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Plugin.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Plugin.cs",
-              "RelativeDocumentMoniker": "Plugin.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Plugin.cs",
-              "RelativeToolTip": "Plugin.cs",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAkwHoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.554Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "JobGaugeReader.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Helpers\\JobGaugeReader.cs",
-              "RelativeDocumentMoniker": "Helpers\\JobGaugeReader.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Helpers\\JobGaugeReader.cs",
-              "RelativeToolTip": "Helpers\\JobGaugeReader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwCUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DragoonRotation.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Rotations\\DragoonRotation.cs",
-              "RelativeDocumentMoniker": "Rotations\\DragoonRotation.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Rotations\\DragoonRotation.cs",
-              "RelativeToolTip": "Rotations\\DragoonRotation.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAkwOoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.569Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRotation.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\IRotation.cs",
-              "RelativeDocumentMoniker": "IRotation.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\IRotation.cs",
-              "RelativeToolTip": "IRotation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.578Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "RotationManager.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Managers\\RotationManager.cs",
-              "RelativeDocumentMoniker": "Managers\\RotationManager.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Managers\\RotationManager.cs",
-              "RelativeToolTip": "Managers\\RotationManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAA5wFAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.532Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "VSProjectConfigWarningLog_cc255283-ea97-446e-9b6f-41f48c393a45.txt",
-              "DocumentMoniker": "C:\\Users\\kruil\\AppData\\Local\\Temp\\VSProjectConfigWarningLog_cc255283-ea97-446e-9b6f-41f48c393a45.txt",
-              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\VSProjectConfigWarningLog_cc255283-ea97-446e-9b6f-41f48c393a45.txt",
-              "ToolTip": "C:\\Users\\kruil\\AppData\\Local\\Temp\\VSProjectConfigWarningLog_cc255283-ea97-446e-9b6f-41f48c393a45.txt",
-              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\VSProjectConfigWarningLog_cc255283-ea97-446e-9b6f-41f48c393a45.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2026-01-01T16:17:03.958Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UIHelpers.cs",
               "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\UIHelpers.cs",
               "RelativeDocumentMoniker": "UIHelpers.cs",
@@ -206,80 +97,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "nuget.config",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\nuget.config",
-              "RelativeDocumentMoniker": "nuget.config",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\nuget.config",
-              "RelativeToolTip": "nuget.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2026-01-01T16:23:01.231Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "ConfigWindow.cs",
               "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\ConfigWindow.cs",
               "RelativeDocumentMoniker": "ConfigWindow.cs",
               "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\ConfigWindow.cs",
               "RelativeToolTip": "ConfigWindow.cs",
-              "ViewState": "AgIAALUAAAAAAAAAAAAkwN4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAkwN0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.512Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TargetingManager.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Managers\\TargetingManager.cs",
-              "RelativeDocumentMoniker": "Managers\\TargetingManager.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Managers\\TargetingManager.cs",
-              "RelativeToolTip": "Managers\\TargetingManager.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAkwHwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.519Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Configuration.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Configuration.cs",
-              "RelativeDocumentMoniker": "Configuration.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\Configuration.cs",
-              "RelativeToolTip": "Configuration.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAA5wFIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.526Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ActionManager.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\ActionManager.cs",
-              "RelativeDocumentMoniker": "ActionManager.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\ActionManager.cs",
-              "RelativeToolTip": "ActionManager.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAkwHwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.504Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ActionInfo.cs",
-              "DocumentMoniker": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\ActionInfo.cs",
-              "RelativeDocumentMoniker": "ActionInfo.cs",
-              "ToolTip": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\ActionInfo.cs",
-              "RelativeToolTip": "ActionInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-01T15:52:42.487Z"
+              "WhenOpened": "2026-01-01T15:52:42.512Z",
+              "EditorCaption": ""
             }
           ]
         }

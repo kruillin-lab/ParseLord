@@ -13,11 +13,11 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("AutoRotationPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.91")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.91+dfdead95d1772530013b54b0b31ad13476445cbf")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.94")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0.94+ee18b2ec4ef514873f5010f3b7b1bb7e7819c679")]
 [assembly: System.Reflection.AssemblyProductAttribute("AutoRotationPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AutoRotationPlugin")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.91")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.94")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
 
