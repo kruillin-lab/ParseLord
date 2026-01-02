@@ -28,6 +28,69 @@ public class Configuration : IPluginConfiguration
     // Use the Enum type here instead of a raw int
     public TargetPriority TargetPriority = TargetPriority.Closest;
 
+    // =====================================================
+    // TANKS
+    // =====================================================
+
+    // Paladin (PLD) Settings
+    public bool PLD_Enabled = true;
+    public bool PLD_Def_Sheltron = true;
+    public bool PLD_AoE_Enabled = true;
+    public int PLD_AoE_Threshold = 3;
+    public bool PLD_Buff_FightOrFlight = true;
+    public bool PLD_Magic_Requiescat = true;
+
+    // Warrior (WAR) Settings
+    public bool WAR_Enabled = true;
+    public bool WAR_AoE_Enabled = true;
+    public int WAR_AoE_Threshold = 3;
+    public bool WAR_Buff_InnerRelease = true;
+
+    // Dark Knight (DRK) Settings
+    public bool DRK_Enabled = true;
+    public bool DRK_AoE_Enabled = true;
+    public int DRK_AoE_Threshold = 3;
+    public bool DRK_Buff_Delirium = true;
+    public bool DRK_Buff_LivingShadow = true;
+
+    // Gunbreaker (GNB) Settings
+    public bool GNB_Enabled = true;
+    public bool GNB_AoE_Enabled = true;
+    public int GNB_AoE_Threshold = 3;
+    public bool GNB_Buff_NoMercy = true;
+    public bool GNB_Buff_Bloodfest = true;
+
+    // =====================================================
+    // HEALERS
+    // =====================================================
+
+    // White Mage (WHM) Settings
+    public bool WHM_Enabled = true;
+    public bool WHM_DPS_AoE_Enabled = true;
+    public int WHM_DPS_AoE_Threshold = 3;
+    public bool WHM_Buff_PresenceOfMind = true;
+
+    // Scholar (SCH) Settings
+    public bool SCH_Enabled = true;
+    public bool SCH_AoE_Enabled = true;
+    public int SCH_AoE_Threshold = 3;
+    public bool SCH_Buff_ChainStratagem = true;
+
+    // Astrologian (AST) Settings
+    public bool AST_Enabled = true;
+    public bool AST_AoE_Enabled = true;
+    public int AST_AoE_Threshold = 3;
+    public bool AST_Buff_Divination = true;
+
+    // Sage (SGE) Settings
+    public bool SGE_Enabled = true;
+    public bool SGE_AoE_Enabled = true;
+    public int SGE_AoE_Threshold = 3;
+
+    // =====================================================
+    // MELEE DPS
+    // =====================================================
+
     // Dragoon (DRG) Settings
     public bool DRG_Enabled = true;
     public bool DRG_AoE_Enabled = true;
@@ -38,24 +101,6 @@ public class Configuration : IPluginConfiguration
     public bool DRG_Jump_HighJump = true;
     public bool DRG_Gauge_Geirskogul = true;
     public bool DRG_Jump_DragonfireDive = true;
-
-    // Paladin (PLD) Settings
-    public bool PLD_Enabled = true;
-    public bool PLD_Def_Sheltron = true;
-    public bool PLD_AoE_Enabled = true;
-    public int PLD_AoE_Threshold = 3;
-    public bool PLD_Buff_FightOrFlight = true;
-    public bool PLD_Magic_Requiescat = true;
-
-    // White Mage (WHM) Settings
-    public bool WHM_Enabled = true;
-    public bool WHM_DPS_AoE_Enabled = true;
-    public int WHM_DPS_AoE_Threshold = 3;
-    public bool WHM_Buff_PresenceOfMind = true;
-
-    // =====================================================
-    // MELEE DPS
-    // =====================================================
 
     // Monk (MNK) Settings
     public bool MNK_Enabled = true;
@@ -68,6 +113,7 @@ public class Configuration : IPluginConfiguration
     public bool NIN_Enabled = true;
     public bool NIN_AoE_Enabled = true;
     public int NIN_AoE_Threshold = 3;
+    public int NIN_AoEThreshold = 3;  // Alternate naming for UI compatibility
     public bool NIN_Buff_Mug = true;
     public bool NIN_Buff_Kassatsu = true;
     public bool NIN_Buff_Bunshin = true;
