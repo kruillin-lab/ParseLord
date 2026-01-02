@@ -2,7 +2,7 @@
   "Author": "Manus",
   "Name": "Parse Lord",
   "InternalName": "AutoRotationPlugin",
-  "AssemblyVersion": "1.0.0.94",
+  "AssemblyVersion": "0.0.0.0",
   "Description": "RSR-style rotation engine with Wrath-style UI. Features per-ability heal priority stacks, burst window alignment, job gauge integration, and comprehensive granular options.",
   "ApplicableVersion": "any",
   "Tags": [

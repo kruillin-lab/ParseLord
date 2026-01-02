@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "053FsBQnwSY=",
+  "dgSpecHash": "zQLKK1mu5xw=",
   "success": true,
   "projectFilePath": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kruil\\.nuget\\packages\\dalamudpackager\\2.1.13\\dalamudpackager.2.1.13.nupkg.sha512",
-    "C:\\Users\\kruil\\.nuget\\packages\\imgui.net\\1.91.6.1\\imgui.net.1.91.6.1.nupkg.sha512"
+    "C:\\Users\\kruil\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\kruil\\.nuget\\packages\\serilog\\4.3.0\\serilog.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

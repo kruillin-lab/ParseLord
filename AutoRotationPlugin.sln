@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 18
-VisualStudioVersion = 18.1.11312.151 d18.0
+VisualStudioVersion = 18.1.11312.151
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoRotationPlugin", "AutoRotationPlugin.csproj", "{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECommons", "..\ECommons\ECommons\ECommons.csproj", "{7B54D5B5-7AB4-CCB1-F4B8-2A52B209D934}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PunishLib", "..\PunishLib\PunishLib\PunishLib.csproj", "{CF1B84A9-C285-A7A1-7ECE-0C3DFACC7EFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}.Debug|x64.Build.0 = Debug|x64
 		{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}.Release|x64.ActiveCfg = Release|x64
 		{3903AE01-B8B9-5C0E-DE41-EBF2150A6B17}.Release|x64.Build.0 = Release|x64
+		{7B54D5B5-7AB4-CCB1-F4B8-2A52B209D934}.Debug|x64.ActiveCfg = Debug|x64
+		{7B54D5B5-7AB4-CCB1-F4B8-2A52B209D934}.Debug|x64.Build.0 = Debug|x64
+		{7B54D5B5-7AB4-CCB1-F4B8-2A52B209D934}.Release|x64.ActiveCfg = Release|x64
+		{7B54D5B5-7AB4-CCB1-F4B8-2A52B209D934}.Release|x64.Build.0 = Release|x64
+		{CF1B84A9-C285-A7A1-7ECE-0C3DFACC7EFD}.Debug|x64.ActiveCfg = Debug|x64
+		{CF1B84A9-C285-A7A1-7ECE-0C3DFACC7EFD}.Debug|x64.Build.0 = Debug|x64
+		{CF1B84A9-C285-A7A1-7ECE-0C3DFACC7EFD}.Release|x64.ActiveCfg = Release|x64
+		{CF1B84A9-C285-A7A1-7ECE-0C3DFACC7EFD}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

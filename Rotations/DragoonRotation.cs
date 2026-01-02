@@ -95,7 +95,7 @@ namespace AutoRotationPlugin.Rotations.Jobs
             }
 
             // 2. GCD Logic
-            if (config.DRG_AoE_Enabled && config.UseAoE && RotationManager.GetHostileCountAround(player, 10f) >= config.DRG_AoE_Threshold)
+            if (config.DRG_AoE_Enabled && config.UseAoE && GameState.GetHostileCountAround(player, 10f) >= config.DRG_AoE_Threshold)
                 return GetAoEAction(player, config);
 
             return GetSingleTargetAction(player, target, config);

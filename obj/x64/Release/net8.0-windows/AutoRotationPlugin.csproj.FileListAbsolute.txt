@@ -1,0 +1,4 @@
+C:\Users\kruil\Documents\Projects\ParseLord\obj\x64\Release\net8.0-windows\AutoRotationPlugin.csproj.AssemblyReference.cache
+C:\Users\kruil\Documents\Projects\ParseLord\obj\x64\Release\net8.0-windows\AutoRotationPlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kruil\Documents\Projects\ParseLord\obj\x64\Release\net8.0-windows\AutoRotationPlugin.csproj.CoreCompileInputs.cache
+C:\Users\kruil\Documents\Projects\ParseLord\obj\x64\Release\net8.0-windows\AutoRotationPlugin.sourcelink.json

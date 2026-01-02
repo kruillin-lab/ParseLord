@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj": {
-      "version": "1.0.0.94",
+      "version": "1.0.0.95",
       "restore": {
         "projectUniqueName": "C:\\Users\\kruil\\Documents\\Projects\\ParseLord\\AutoRotationPlugin.csproj",
         "projectName": "AutoRotationPlugin",
@@ -50,9 +50,13 @@
               "target": "Package",
               "version": "[2.1.13, )"
             },
-            "ImGui.NET": {
+            "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[1.91.6.1, )"
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[4.3.0, )"
             }
           },
           "imports": [
