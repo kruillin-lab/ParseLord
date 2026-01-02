@@ -44,14 +44,12 @@ public class Configuration : IPluginConfiguration
     public bool WAR_Enabled = true;
     public bool WAR_AoE_Enabled = true;
     public int WAR_AoE_Threshold = 3;
-    public int WAR_AoEThreshold = 3; // UI compatibility
     public bool WAR_Buff_InnerRelease = true;
 
     // Dark Knight (DRK) Settings
     public bool DRK_Enabled = true;
     public bool DRK_AoE_Enabled = true;
     public int DRK_AoE_Threshold = 3;
-    public int DRK_AoEThreshold = 3; // UI compatibility
     public bool DRK_Buff_Delirium = true;
     public bool DRK_Buff_LivingShadow = true;
 
@@ -59,7 +57,6 @@ public class Configuration : IPluginConfiguration
     public bool GNB_Enabled = true;
     public bool GNB_AoE_Enabled = true;
     public int GNB_AoE_Threshold = 3;
-    public int GNB_AoEThreshold = 3; // UI compatibility
     public bool GNB_Buff_NoMercy = true;
     public bool GNB_Buff_Bloodfest = true;
 
@@ -71,28 +68,24 @@ public class Configuration : IPluginConfiguration
     public bool WHM_Enabled = true;
     public bool WHM_DPS_AoE_Enabled = true;
     public int WHM_DPS_AoE_Threshold = 3;
-    public int WHM_AoEThreshold = 3; // UI compatibility
     public bool WHM_Buff_PresenceOfMind = true;
 
     // Scholar (SCH) Settings
     public bool SCH_Enabled = true;
     public bool SCH_AoE_Enabled = true;
     public int SCH_AoE_Threshold = 3;
-    public int SCH_AoEThreshold = 3; // UI compatibility
     public bool SCH_Buff_ChainStratagem = true;
 
     // Astrologian (AST) Settings
     public bool AST_Enabled = true;
     public bool AST_AoE_Enabled = true;
     public int AST_AoE_Threshold = 3;
-    public int AST_AoEThreshold = 3; // UI compatibility
     public bool AST_Buff_Divination = true;
 
     // Sage (SGE) Settings
     public bool SGE_Enabled = true;
     public bool SGE_AoE_Enabled = true;
     public int SGE_AoE_Threshold = 3;
-    public int SGE_AoEThreshold = 3; // UI compatibility
 
     // =====================================================
     // MELEE DPS
@@ -102,7 +95,6 @@ public class Configuration : IPluginConfiguration
     public bool DRG_Enabled = true;
     public bool DRG_AoE_Enabled = true;
     public int DRG_AoE_Threshold = 3;
-    public int DRG_AoEThreshold = 3; // UI compatibility
     public bool DRG_Buff_LanceCharge = true;
     public bool DRG_Buff_BattleLitany = true;
     public bool DRG_Buff_LifeSurge = true;
@@ -114,7 +106,6 @@ public class Configuration : IPluginConfiguration
     public bool MNK_Enabled = true;
     public bool MNK_AoE_Enabled = true;
     public int MNK_AoE_Threshold = 3;
-    public int MNK_AoEThreshold = 3; // UI compatibility
     public bool MNK_Buff_RiddleOfFire = true;
     public bool MNK_Buff_Brotherhood = true;
 
@@ -122,7 +113,6 @@ public class Configuration : IPluginConfiguration
     public bool NIN_Enabled = true;
     public bool NIN_AoE_Enabled = true;
     public int NIN_AoE_Threshold = 3;
-    public int NIN_AoEThreshold = 3;  // Alternate naming for UI compatibility
     public bool NIN_Buff_Mug = true;
     public bool NIN_Buff_Kassatsu = true;
     public bool NIN_Buff_Bunshin = true;
@@ -131,7 +121,6 @@ public class Configuration : IPluginConfiguration
     public bool SAM_Enabled = true;
     public bool SAM_AoE_Enabled = true;
     public int SAM_AoE_Threshold = 3;
-    public int SAM_AoEThreshold = 3; // UI compatibility
     public bool SAM_Buff_MeikyoShisui = true;
     public bool SAM_Buff_Ikishoten = true;
     public bool SAM_Kenki_Senei = true;
@@ -141,7 +130,6 @@ public class Configuration : IPluginConfiguration
     public bool RPR_Enabled = true;
     public bool RPR_AoE_Enabled = true;
     public int RPR_AoE_Threshold = 3;
-    public int RPR_AoEThreshold = 3; // UI compatibility
     public bool RPR_Buff_ArcaneCircle = true;
     public bool RPR_Buff_Enshroud = true;
     public bool RPR_oGCD_Gluttony = true;
@@ -150,7 +138,6 @@ public class Configuration : IPluginConfiguration
     public bool VPR_Enabled = true;
     public bool VPR_AoE_Enabled = true;
     public int VPR_AoE_Threshold = 3;
-    public int VPR_AoEThreshold = 3; // UI compatibility
     public bool VPR_Buff_Reawaken = true;
     public bool VPR_oGCD_Vicewinder = true;
 
@@ -162,7 +149,6 @@ public class Configuration : IPluginConfiguration
     public bool BRD_Enabled = true;
     public bool BRD_AoE_Enabled = true;
     public int BRD_AoE_Threshold = 3;
-    public int BRD_AoEThreshold = 3; // UI compatibility
     public bool BRD_Buff_RagingStrikes = true;
     public bool BRD_Buff_BattleVoice = true;
     public bool BRD_Buff_RadiantFinale = true;
@@ -172,7 +158,6 @@ public class Configuration : IPluginConfiguration
     public bool MCH_Enabled = true;
     public bool MCH_AoE_Enabled = true;
     public int MCH_AoE_Threshold = 3;
-    public int MCH_AoEThreshold = 3; // UI compatibility
     public bool MCH_Buff_Wildfire = true;
     public bool MCH_Buff_BarrelStabilizer = true;
     public bool MCH_Buff_Reassemble = true;
@@ -182,7 +167,6 @@ public class Configuration : IPluginConfiguration
     public bool DNC_Enabled = true;
     public bool DNC_AoE_Enabled = true;
     public int DNC_AoE_Threshold = 3;
-    public int DNC_AoEThreshold = 3; // UI compatibility
     public bool DNC_Buff_StandardStep = true;
     public bool DNC_Buff_TechnicalStep = true;
     public bool DNC_Buff_Devilment = true;
@@ -196,7 +180,6 @@ public class Configuration : IPluginConfiguration
     public bool BLM_Enabled = true;
     public bool BLM_AoE_Enabled = true;
     public int BLM_AoE_Threshold = 3;
-    public int BLM_AoEThreshold = 3; // UI compatibility
     public bool BLM_Buff_LeyLines = true;
     public bool BLM_Buff_Triplecast = true;
 
@@ -204,14 +187,12 @@ public class Configuration : IPluginConfiguration
     public bool SMN_Enabled = true;
     public bool SMN_AoE_Enabled = true;
     public int SMN_AoE_Threshold = 3;
-    public int SMN_AoEThreshold = 3; // UI compatibility
     public bool SMN_Buff_SearingLight = true;
 
     // Red Mage (RDM) Settings
     public bool RDM_Enabled = true;
     public bool RDM_AoE_Enabled = true;
     public int RDM_AoE_Threshold = 3;
-    public int RDM_AoEThreshold = 3; // UI compatibility
     public bool RDM_Buff_Embolden = true;
     public bool RDM_Buff_Manafication = true;
     public bool RDM_Buff_Acceleration = true;
@@ -220,7 +201,6 @@ public class Configuration : IPluginConfiguration
     public bool PCT_Enabled = true;
     public bool PCT_AoE_Enabled = true;
     public int PCT_AoE_Threshold = 3;
-    public int PCT_AoEThreshold = 3; // UI compatibility
     public bool PCT_Buff_StarryMuse = true;
 
     [NonSerialized]

@@ -19,11 +19,9 @@ public class ConfigWindow : Window, IDisposable
 
     // UI State
     private uint? _selectedJobId = null;
-    private string _searchQuery = string.Empty;
     private bool _sidebarCollapsed = false;
 
     // Priority Stack UI state
-    private PriorityRoleTab _selectedRole = PriorityRoleTab.DPS;
     private int _selectedStackIndex = 0;
 
     public ConfigWindow(ParseLord p, Configuration configuration) : base("Parse Lord###ParseLordConfig")
@@ -48,11 +46,8 @@ public class ConfigWindow : Window, IDisposable
     private void DrawMainLayout()
     {
         var avail = ImGui.GetContentRegionAvail();
-        
-        // Sidebar Width
         float sidebarWidth = _sidebarCollapsed ? 40f : 220f;
         
-        // Use a table with fixed height to prevent overlapping
         if (ImGui.BeginTable("MainLayoutTable", 2, ImGuiTableFlags.Resizable | ImGuiTableFlags.NoSavedSettings | ImGuiTableFlags.BordersInnerV))
         {
             ImGui.TableSetupColumn("Sidebar", ImGuiTableColumnFlags.WidthFixed, sidebarWidth);
@@ -61,12 +56,10 @@ public class ConfigWindow : Window, IDisposable
             ImGui.TableNextRow(ImGuiTableRowFlags.None, avail.Y);
             ImGui.TableNextColumn();
 
-            // --- SIDEBAR ---
             DrawSidebar();
 
             ImGui.TableNextColumn();
 
-            // --- BODY ---
             DrawBody();
 
             ImGui.EndTable();
@@ -87,7 +80,7 @@ public class ConfigWindow : Window, IDisposable
             DrawJobCategory("Tanks", new uint[] { 19, 21, 32, 37 });
             DrawJobCategory("Healers", new uint[] { 24, 28, 33, 40 });
             DrawJobCategory("Melee DPS", new uint[] { 22, 20, 29, 34, 39, 41 });
-            DrawJobCategory("Ranged DPS", new uint[] { 23, 25, 38 });
+            DrawJobCategory("Ranged DPS", new uint[] { 23, 31, 38 });
             DrawJobCategory("Magical DPS", new uint[] { 25, 27, 35, 42 });
 
             ImGui.SetCursorPosY(ImGui.GetWindowHeight() - 60);
@@ -195,7 +188,6 @@ public class ConfigWindow : Window, IDisposable
 
     private void DrawRotationFeatures(uint jobId)
     {
-        // WrathCombo style: InfoBoxes with toggles
         bool enabled = GetJobEnabled(jobId);
         if (ImGui.Checkbox($"Enable {GetJobName(jobId)} Rotation", ref enabled))
         {
@@ -206,7 +198,6 @@ public class ConfigWindow : Window, IDisposable
         ImGui.Separator();
         ImGui.Spacing();
 
-        // Granular Controls
         if (ImGui.CollapsingHeader("Core Logic", ImGuiTreeNodeFlags.DefaultOpen))
         {
             int threshold = GetJobAoEThreshold(jobId);
@@ -218,12 +209,6 @@ public class ConfigWindow : Window, IDisposable
             }
             
             ImGui.TextDisabled("This controls when the rotation switches from single-target to AoE mode.");
-        }
-
-        if (ImGui.CollapsingHeader("Healing & Utility"))
-        {
-            ImGui.Text("Advanced healing logic and utility usage can be configured here.");
-            // Placeholder for more granular controls like WrathCombo
         }
     }
 
@@ -241,14 +226,50 @@ public class ConfigWindow : Window, IDisposable
         }
     }
 
-    // --- Helper Methods for Job Data ---
+    private void DrawRoleStacks(JobPriorityStacksConfig jobCfg, PriorityRoleTab role)
+    {
+        var roleCfg = P.PriorityStackManager.GetRole(jobCfg, role);
+        
+        if (ImGui.BeginTable("StacksTable", 2, ImGuiTableFlags.Resizable))
+        {
+            ImGui.TableSetupColumn("StackList", ImGuiTableColumnFlags.WidthFixed, 200f);
+            ImGui.TableSetupColumn("StackEditor", ImGuiTableColumnFlags.WidthStretch);
+            ImGui.TableNextRow();
+            ImGui.TableNextColumn();
+
+            if (ImGui.Button("+ Add")) { roleCfg.Stacks.Add(new PriorityStack { Name = "New Stack", Enabled = true }); Configuration.Save(); }
+            ImGui.SameLine();
+            if (ImGui.Button("- Rem") && roleCfg.Stacks.Count > 1) { roleCfg.Stacks.RemoveAt(_selectedStackIndex); _selectedStackIndex = 0; Configuration.Save(); }
+
+            for (int i = 0; i < roleCfg.Stacks.Count; i++)
+            {
+                if (ImGui.Selectable($"{i}: {roleCfg.Stacks[i].Name}", _selectedStackIndex == i)) _selectedStackIndex = i;
+            }
+
+            ImGui.TableNextColumn();
+            if (roleCfg.Stacks.Count > 0)
+            {
+                _selectedStackIndex = Math.Clamp(_selectedStackIndex, 0, roleCfg.Stacks.Count - 1);
+                var stack = roleCfg.Stacks[_selectedStackIndex];
+                
+                string name = stack.Name ?? "";
+                if (ImGui.InputText("Stack Name", ref name, 64)) { stack.Name = name; Configuration.Save(); }
+                ImGui.Checkbox("Enabled", ref stack.Enabled);
+                
+                ImGui.Separator();
+                ImGui.Text("Conditions");
+                if (ImGui.Button("+ Condition")) { stack.Conditions.Add(new StackCondition()); Configuration.Save(); }
+            }
+            ImGui.EndTable();
+        }
+    }
 
     private string GetJobName(uint jobId) => jobId switch
     {
         19 => "Paladin", 21 => "Warrior", 32 => "Dark Knight", 37 => "Gunbreaker",
         24 => "White Mage", 28 => "Scholar", 33 => "Astrologian", 40 => "Sage",
-        22 => "Dragoon", 20 => "Monk", 34 => "Samurai", 39 => "Reaper", 41 => "Viper",
-        23 => "Bard", 25 => "Black Mage", 38 => "Dancer", 27 => "Summoner", 35 => "Red Mage", 42 => "Pictomancer",
+        22 => "Dragoon", 20 => "Monk", 29 => "Ninja", 34 => "Samurai", 39 => "Reaper", 41 => "Viper",
+        23 => "Bard", 31 => "Machinist", 38 => "Dancer", 25 => "Black Mage", 27 => "Summoner", 35 => "Red Mage", 42 => "Pictomancer",
         _ => $"Job {jobId}"
     };
 
@@ -328,46 +349,6 @@ public class ConfigWindow : Window, IDisposable
             case 35: Configuration.RDM_AoE_Threshold = val; break;
             case 42: Configuration.PCT_AoE_Threshold = val; break;
         }
-    }
-
-    // --- Reusing existing complex UI logic for Stacks ---
-    private void DrawRoleStacks(JobPriorityStacksConfig jobCfg, PriorityRoleTab role)
-    {
-        var roleCfg = P.PriorityStackManager.GetRole(jobCfg, role);
-        var avail = ImGui.GetContentRegionAvail();
-        
-        if (ImGui.BeginTable("StacksTable", 2, ImGuiTableFlags.Resizable))
-        {
-            ImGui.TableSetupColumn("StackList", ImGuiTableColumnFlags.WidthFixed, 200f);
-            ImGui.TableSetupColumn("StackEditor", ImGuiTableColumnFlags.WidthStretch);
-            ImGui.TableNextRow();
-            ImGui.TableNextColumn();
-
-            // Left side: Stack List
-            if (ImGui.Button("+ Add")) { roleCfg.Stacks.Add(new PriorityStack { Name = "New Stack", Enabled = true }); Configuration.Save(); }
-            ImGui.SameLine();
-            if (ImGui.Button("- Rem") && roleCfg.Stacks.Count > 1) { roleCfg.Stacks.RemoveAt(_selectedStackIndex); _selectedStackIndex = 0; Configuration.Save(); }
-
-            for (int i = 0; i < roleCfg.Stacks.Count; i++)
-            {
-                if (ImGui.Selectable($"{i}: {roleCfg.Stacks[i].Name}", _selectedStackIndex == i)) _selectedStackIndex = i;
-            }
-
-            ImGui.TableNextColumn();
-            // Right side: Stack Editor
-            _selectedStackIndex = Math.Clamp(_selectedStackIndex, 0, roleCfg.Stacks.Count - 1);
-            var stack = roleCfg.Stacks[_selectedStackIndex];
-            
-            string name = stack.Name ?? "";
-            if (ImGui.InputText("Stack Name", ref name, 64)) { stack.Name = name; Configuration.Save(); }
-            ImGui.Checkbox("Enabled", ref stack.Enabled);
-            
-            ImGui.Separator();
-            ImGui.Text("Conditions");
-            if (ImGui.Button("+ Condition")) { stack.Conditions.Add(new StackCondition()); Configuration.Save(); }
-            // ... (rest of condition logic)
-        }
-        ImGui.EndTable();
     }
 
     private void DrawDebug()
